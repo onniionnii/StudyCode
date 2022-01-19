@@ -8,8 +8,10 @@
 
 # 첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력한다.
 
-a, b, c = map(int, input().split())
+A, B, C = map(int, input().split())
 
-print(a)
-print(b)
-print(c)
+print((A + B) % C)
+print(((A % C) + (B % C)) % C)
+print((A * B) % C)
+print(((A % C) * (B % C)) % C)
+pr
